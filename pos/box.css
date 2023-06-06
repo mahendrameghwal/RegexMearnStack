@@ -1,0 +1,32 @@
+body {
+        background-color: black;
+}
+.mybox {
+        background-color: pink;
+        height: 200px;
+        width: 200px;
+        border: 2px solid white;
+        display: inline-block;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+}
+
+#box-3 {
+        position: absolute;
+        bottom: 10px;
+}
+p{
+    color: white;
+}
+
+.container{
+     display: flex;
+     justify-content:space-evenly;
+}
+.box-1{
+        border: 1px solid red;
+        height: 100px;
+        width: 200px;
+        background-color: rebeccapurple;
+}

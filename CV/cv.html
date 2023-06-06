@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="main">
+        <input type="color" id="colorPicker"  onchange="changeBodyColor()">
+        <div class="container">
+            <div class="col-1">
+                <div class="inner-col-1">
+                    <figure >
+                        <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" alt="">
+                        <p class="names">John Doe</p>
+                    </figure>
+                    <div class="col-1-info">
+                        <p> <i class="small-icon cyan fa-solid fa-briefcase"></i> designer</p>
+                        <p><i class="small-icon cyan fa-sharp fa-solid fa-house"></i>London, UK</p>
+                        <p><i class="small-icon cyan fa-solid fa-envelope"></i>ex@mail.com</p>
+                        <p><i class="small-icon cyan fa-solid fa-phone"></i> 1234567890</p>
+                    </div>
+                    <hr>
+                    <div class="col-1-info">
+                        <p><i class="small-icon cyan fa-solid fa-star"></i>Skills</p>
+                        <div class="skills">
+                            <p>photoshop</p>
+
+                            <div class="progress-div">
+                                <progress value="90" max="100"></progress>
+                                <span class="progress-val">90%</span>
+                            </div>
+
+                            </progress>
+                            <p>Photography</p>
+                            <div class="progress-div">
+                                <progress value="80" max="100"></progress>
+                                <span class="progress-val">80%</span>
+                            </div>
+                            <p>Illustrator</p>
+                            <div class="progress-div">
+                                <progress value="75" max="100"></progress>
+                                <span class="progress-val">75%</span>
+                            </div>
+                            <p>Media</p>
+                            <div class="progress-div">
+                                <progress value="50" max="100"></progress>
+                                <span class="progress-val">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-1-info">
+                        <p><i class=" small-icon cyan fa-solid fa-earth-americas"></i>Language</p>
+                        <div class="skills">
+                            <label>English</label> <br>
+                            <progress value="90" max="100"></progress>
+                            <label>Spanish</label> <br>
+                            <progress value="80" max="100"></progress>
+                            <label>German</label> <br>
+                            <progress value="75" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+
+                <div class="exprience">
+                    <h3 class="cyan"> <i class=" big-icon cyan fa-solid fa-briefcase"></i> <span
+                            class="big-heading">Work Experience</span></h3>
+                    <div class="detail-1">
+                        <p class="small-heading">Front End Developer / w3schools.com</p>
+                        <span><i class="small-icon cyan fa-solid fa-calendar-days"></i>Jan 2015 - <button
+                                class="current">Current</button></span>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
+                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
+                            iste.</p>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="detail-1">
+                        <p class="small-heading">Web Developer / something.com</p>
+                        <span><i class="small-icon cyan fa-solid fa-calendar-days"></i>Mar 2012 - Dec 2014</span>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
+                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
+                            iste.</p>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="detail-1">
+                        <p class="small-heading">Graphic Designer / designsomething.com</p>
+                        <span><i class="small-icon cyan fa-solid fa-calendar-days"></i>Jun 2010 - Mar 2012</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+
+
+                </div>
+                <div class="education">
+                    <h3 class="cyan "> <i class=" big-icon cyan fa-solid fa-briefcase"></i> <span
+                            class="big-heading">Education</span></h3>
+                    <div class="detail-1">
+                        <p class="small-heading">W3Schools.com</p>
+                        <span><i class="small-icon cyan fa-solid fa-calendar-days"></i>Forever</span>
+                        <p>Web Development! All I need to know in one place</p>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="detail-1">
+                        <p class="small-heading">London Business School</p>
+                        <span><i class="small-icon cyan fa-solid fa-calendar-days"></i>2013 - 2015</span>
+                        <p>Master Degree</p>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="detail-1">
+                        <p class="small-heading">School of Coding</p>
+                        <span><i class="small-icon cyan fa-solid fa-calendar-days"></i>2010 - 2013</span>
+                        <p>Bachelor Degree</p>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer cyan cyan-bg">
+        <div class="inner-footer">
+            <p>Find me on social media.</p> 
+            <i class="footer-icon fa-brands fa-square-facebook"></i>
+            <i class="footer-icon fa-brands fa-square-instagram"></i>
+            <i class="footer-icon fa-brands fa-square-snapchat"></i>
+            <i class="footer-icon fa-brands fa-square-pinterest"></i>
+            <i class="footer-icon fa-brands fa-square-twitter"></i>
+            <i class="footer-icon fa-brands fa-square-linkedin"></i>
+           
+            <p>Powered by mahendra</p>
+        </div>
+    </div>
+</body>
+<script defer>
+    const cyan = document.querySelectorAll(".cyan");
+    const cyanbg = document.querySelector(".cyan-bg")
+    const colorPicker = document.getElementById("colorPicker");
+    console.log(colorPicker.value);
+    console.log(cyanbg);
+
+    const changeBodyColor =()=>{
+        cyanbg.style.backgroundColor  = colorPicker.value;
+        for (var i = 0; i < cyan.length; i++) {
+            cyan[i].style.color = colorPicker.value;
+          
+  }
+    }
+</script>
+</html>

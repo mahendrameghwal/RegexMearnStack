@@ -1,0 +1,86 @@
+body {
+        height: 90vh;
+}
+.box {
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        animation-name: animate;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 5s;
+        position: relative;
+        border-radius: 10px;
+}
+.btn {
+        width: 140px;
+        height: 30px;
+        background-color: blue;
+        transition: 0.5s all;
+        cursor: pointer;
+        font-weight: 700;
+}
+.btn:hover {
+        background-color: cadetblue;
+        border-radius: 10px;
+        color: white;
+        transform: matrix(0.5);
+}
+@keyframes animate {
+        0% {
+                top: 0;
+                width: 120px;
+                background-color: rgb(29, 29, 187);
+            
+        }
+        15% {
+                top: 10%;
+                width: 100px;
+                background-color: aquamarine;
+                transform: skew(10deg, 75deg);
+        }
+        20% {
+                top: 25%;
+                width: 150px;
+                background-color: bisque;
+                left: 10%;
+        }
+        30% {
+                top: 35%;
+                width: 120px;
+                background-color: chocolate;
+                left: 25%;
+        }
+        45% {
+                top: 45%;
+                width: 120px;
+                background-color: cadetblue;
+                left: 45%;
+        }
+        55% {
+                top: 55%;
+                width: 140px;
+                background-color: cornflowerblue;
+                left: 55%;
+        }
+        75% {
+                top: 75%;
+                width: 140px;
+                background-color: yellowgreen;
+
+                left: 45%;
+        }
+        90% {
+                top: 85%;
+                width: 140px;
+                background-color: violet;
+                left: 35%;
+        }
+        100% {
+                top: 95%;
+                width: 100px;
+                background-color: teal;
+                left: 25%;
+        }
+}

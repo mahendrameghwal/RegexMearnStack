@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+display: flex;
+gap: 10px;
+height: 100vh;
+position: relative;
+border: 2px solid red;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+}
+.box1{
+    top: 50%;
+    left: 50%;
+}
+.box3{
+    right: 0;
+}
+.box2{
+    bottom: 0;
+    right: 50%;
+}
