@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <input type="text" class="input">
+    <button class="btn">insert value</button>
+    <div class="container"></div>
+
+
+
+    <script>
+        let arr = [];
+        let btn = document.querySelector('.btn');
+        btn.style.backgroundColor ="red";
+        
+        btn.addEventListener("click", () => {
+            const container = document.querySelector('.container');
+            let input = document.querySelector('.input').value;
+            arr.push(input);
+
+
+            const li = document.createElement("li");
+            const liapend = container.appendChild(li);
+
+            setInterval(() => {
+                arr.map((x) => {
+                    return container.innerHTML = x;
+                })
+            }, 1000);
+
+
+        })
+
+    </script>
+</body>
+
+</html>

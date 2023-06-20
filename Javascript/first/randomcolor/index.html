@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" sizes="30"
+        href="https://e7.pngegg.com/pngimages/705/73/png-clipart-rainbow-light-rainbow-image-file-formats-face.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi color</title>
+    <script defer src="./app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height: 100vh;
+            background-color: hsl(0, 0%, 90%);
+        }
+
+        .container {
+            display: flex;
+            width: 95%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 0 auto;
+
+        }
+
+        .box {
+            width: 24%;
+            height: 22vh;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 20px;
+            justify-content: center;
+            font-size: 1.2em;
+            place-items: center;
+            margin: 6px 0;
+            transition: 0.7s background  !important;
+       
+
+        }
+
+        .box:hover {
+            transform: scale(98%);
+
+        }
+
+
+
+        @media screen and (max-width:900px)and (min-width:768px) {
+            .box {
+                width: 32%;
+
+            }
+
+        }
+
+        @media screen and (max-width:768px) {
+            .box {
+                width: 100%;
+
+            }
+
+        }
+    </style>
+</body>
+
+</html>
